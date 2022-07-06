@@ -1,12 +1,10 @@
 const express = require("express")
 const app = express()
+const toyRoutes = require("./routes/toyRoutes")
+const userRoutes = require("./routes/userRoutes")
 
-app.get("/", (req, res)=>{
-  res.status(200).json({
-    "success":true,
-    "message": "It works!"
-  })
-})
+app.use("/api/v1/toy", toyRoutes);
+app.use("/api/v1/user", userRoutes);
 
 const PORT = process.env.PORT || 5000
 
