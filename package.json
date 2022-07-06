@@ -1,0 +1,26 @@
+{
+  "name": "kleiba-backend-task",
+  "version": "1.0.0",
+  "description": "Repository for my solution to Kleiba Backend Task.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raajzz/kleiba-backend-task.git"
+  },
+  "author": "Raaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raajzz/kleiba-backend-task/issues"
+  },
+  "homepage": "https://github.com/Raajzz/kleiba-backend-task#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.3",
+    "nodemon": "^2.0.19"
+  }
+}
