@@ -1,6 +1,6 @@
 - [x] Create Models
 - [x] Create Database on MongoDB cloud
 - [x] Connect Cloud DB with local application
-- [ ] Implement the basic features
-- [ ] Implement the search feature
-- [ ] Authentication
+- [x] Implement the basic features
+- [x] Implement the search feature
+- [x] Authentication
